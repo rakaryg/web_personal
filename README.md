@@ -1,6 +1,4 @@
-# Marketku (Just a personal project) 💕❤️
-
-Marketku is a mobile-based marketplace application built using the Flutter framework. This app offers a wide variety of exciting products and trusted vendors.
+# Portfolio (Just a personal project) 💕❤️
 
 ## How to run?
 - Clone this project
