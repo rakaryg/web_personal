@@ -16,7 +16,7 @@ class AppbarWidgetTitle extends StatelessWidget {
             text: "Raka Ryandra Guntara",
             child: DefaultTextStyle(
               style: GoogleFonts.oxanium(
-                  color: CustomColors.black,
+                  color: CustomColors.purple,
                   fontSize: 16,
                   fontWeight: FontWeight.bold),
               child: AnimatedTextKit(
@@ -35,7 +35,7 @@ class AppbarWidgetTitle extends StatelessWidget {
             text: "Raka Ryandra Guntara",
             child: DefaultTextStyle(
               style: GoogleFonts.oxanium(
-                  color: CustomColors.black,
+                  color: CustomColors.purple,
                   fontSize: 24,
                   fontWeight: FontWeight.bold),
               child: AnimatedTextKit(

@@ -17,8 +17,7 @@ class AppbarWidget extends StatelessWidget {
             automaticallyImplyLeading: false,
             elevation: 0,
             scrolledUnderElevation: 0,
-            backgroundColor: Colors.white,
-            title: const AppbarWidgetTitle(),
+            backgroundColor: Colors.white.withOpacity(0.1),
             actions: const [AppbarWidgetAction()],
           );
         } else {
@@ -28,7 +27,7 @@ class AppbarWidget extends StatelessWidget {
             automaticallyImplyLeading: false,
             elevation: 0,
             scrolledUnderElevation: 0,
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.white.withOpacity(0.1),
             actions: const [AppbarWidgetActionMobile()],
           );
         }

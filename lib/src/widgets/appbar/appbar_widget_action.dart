@@ -8,15 +8,14 @@ class AppbarWidgetAction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.end,
       children: [
         TextButton(
           onPressed: () {},
           child: Text(
             "Home",
             style: GoogleFonts.oxanium(
-                color: CustomColors.black,
-                fontSize: 16,
-                fontWeight: FontWeight.w600),
+                color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600),
           ),
         ),
         TextButton(
@@ -24,9 +23,7 @@ class AppbarWidgetAction extends StatelessWidget {
           child: Text(
             "About",
             style: GoogleFonts.oxanium(
-                color: CustomColors.black,
-                fontSize: 16,
-                fontWeight: FontWeight.w600),
+                color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600),
           ),
         ),
         TextButton(
@@ -34,9 +31,7 @@ class AppbarWidgetAction extends StatelessWidget {
           child: Text(
             "Project",
             style: GoogleFonts.oxanium(
-                color: CustomColors.black,
-                fontSize: 16,
-                fontWeight: FontWeight.w600),
+                color: Colors.white, fontSize: 16, fontWeight: FontWeight.w600),
           ),
         ),
       ],

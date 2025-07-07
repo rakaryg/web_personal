@@ -1,4 +1,3 @@
-import 'package:animate_gradient/animate_gradient.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -19,7 +18,7 @@ class SplashScreen extends StatelessWidget {
           children: [
             DefaultTextStyle(
               style: GoogleFonts.oxanium(
-                  color: CustomColors.black,
+                  color: CustomColors.purple,
                   fontSize: 48,
                   fontWeight: FontWeight.w600),
               child: AnimatedTextKit(
