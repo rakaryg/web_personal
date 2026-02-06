@@ -30,7 +30,7 @@ export default function Hero() {
         transition={{ delay: 0.6 }}
         className="text-gray-400 text-lg md:text-xl text-center max-w-2xl px-4 item-center mb-10"
       >
-        Just a random guy who loves gaming but is forced to code.
+        Just a random guy who loves gaming but is somehow forced into coding.
       </motion.p>
 
       <motion.div
